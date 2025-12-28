@@ -2,21 +2,97 @@
 layout: default
 title: Home
 ---
-<div class="hero">
-  <h2>स्वागत</h2>
-  <p>यहाँ आप मुफ्त नोट्स पढ़ सकते हैं और PDF डाउनलोड कर सकते हैं — बिना किसी लॉगिन के।</p>
-  <p><a class="btn" href="/courses/html-basics.html">HTML Basics पढ़ें</a></p>
+
+<style>
+  .hero-section {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .logo-img {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid white;
+    background: white;
+  }
+
+  .nav-custom {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+  }
+
+  .nav-custom a {
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: 0.3s;
+  }
+
+  .nav-custom a:hover {
+    color: #ff8c00;
+  }
+
+  /* Card and Grid Styles remain similar but more polished */
+  .subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+
+  .subject-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+  }
+
+  .subject-card:hover {
+    transform: translateY(-10px);
+  }
+</style>
+
+<div class="nav-custom">
+    <a href="./index.html">🏠 Home</a>
+    <a href="./subjects.html">📚 Subjects</a>
+    <a href="./about.html">🙋‍♂️ About</a>
 </div>
 
-<section class="about">
-  <h3>About / हमारे बारे में</h3>
-  <p>यह साइट विद्यार्थियों के लिए मुफ्त अध्ययन सामग्री साझा करने के लिए बनाई गयी है। आप यहाँ से नोट्स डाउनलोड कर सकते हैं और अपनी पढ़ाई के लिए उपयोग कर सकते हैं। यदि आप सामग्री जोड़ना चाहते हैं तो GitHub पर नए markdown पेज बनाकर भेज दें।</p>
-</section>
+<div class="hero-section">
+    <img src="https://github.com/user-attachments/assets/54428106-4b55-46b7-8fa5-dc9a1774f7aa" alt="Studygrammarhub Logo" class="logo-img"> 
+    
+    <h1 style="font-size: 2.5em; margin: 0;">Studygrammarhub</h1>
+    <p style="font-size: 1.2em; opacity: 0.9;">Master Grammar, Unlock Success.</p>
+</div>
 
-<section>
-  <h3>उपलब्ध कोर्स / नोट्स</h3>
-  <ul>
-    <li><a href="/courses/html-basics.html">HTML Basics</a></li>
-    <!-- आगे नए कोर्स यहाँ जोड़ें -->
-  </ul>
-</section
+<h2 style="text-align:center; margin-bottom: 30px;">Popular Subject Notes</h2>
+<div class="subject-grid">
+    
+    <div class="subject-card">
+        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400" alt="Grammar" style="width:100%;">
+        <div style="padding: 20px; text-align: center;">
+            <h3>English Grammar</h3>
+            <p>Tense, Passive Voice, aur bahut kuch.</p>
+            <a href="./grammar.md" style="background:#2a5298; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; display:inline-block;">Notes Padhein</a>
+        </div>
+    </div>
+
+    </div>
+    
