@@ -92,9 +92,7 @@ title: Home
             <p>Tense, Passive Voice, aur bahut kuch.</p>
             <a href="./grammar.md" style="background:#2a5298; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; display:inline-block;">Notes Padhein</a>
         </div>
-    </div>
-
-    </div>
+    </div> 
     <footer style="background: #1e3c72; color: white; padding: 40px 20px; text-align: center; margin-top: 50px; border-radius: 20px 20px 0 0;">
     <div style="margin-bottom: 20px;">
         <h2 style="margin: 0;">StudyGrammarHub</h2>
