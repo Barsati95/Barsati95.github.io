@@ -82,16 +82,100 @@ title: Home
     <p style="font-size: 1.2em; opacity: 0.9;">Master Grammar, Unlock Success.</p>
 </div>
 
-<h2 style="text-align:center; margin-bottom: 30px;">Popular Subject Notes</h2>
-<div class="subject-grid">
-    
-    <div class="subject-card">
-        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400" alt="Grammar" style="width:100%;">
-        <div style="padding: 20px; text-align: center;">
-            <h3>English Grammar</h3>
-            <p>Tense, Passive Voice, aur bahut kuch.</p>
-            <a href="./grammar.md" style="background:#2a5298; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; display:inline-block;">Notes Padhein</a>
-        </div>
+<style>
+  /* Section Title Style */
+  .section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px 15px;
+    font-family: sans-serif;
+  }
+  .section-title h2 { font-size: 1.2rem; color: #333; margin: 0; }
+  .view-all { 
+    background: #f0fdf4; color: #16a34a; padding: 5px 12px; 
+    border-radius: 5px; text-decoration: none; font-size: 0.8rem; font-weight: bold;
+  }
+
+  /* Subject Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ek line mein 3 box */
+    gap: 12px;
+    padding: 10px;
+  }
+
+  /* Colorful Icon Box Style */
+  .subject-box {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  }
+  .subject-box:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+  .icon-circle {
+    width: 50px; height: 50px;
+    margin: 0 auto 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; border-radius: 12px;
+  }
+
+  .subject-name { color: #444; font-size: 0.8rem; font-weight: 600; display: block; }
+
+  /* Colors for Icons (Matching the Image) */
+  .bg-blue { background: #e0f2fe; color: #0369a1; }
+  .bg-orange { background: #ffedd5; color: #c2410c; }
+  .bg-purple { background: #f3e8ff; color: #7e22ce; }
+  .bg-green { background: #dcfce7; color: #15803d; }
+  .bg-red { background: #fee2e2; color: #b91c1c; }
+  .bg-yellow { background: #fef9c3; color: #a16207; }
+</style>
+
+<div class="section-title">
+  <h2>Grammar Sections</h2>
+  <a href="#" class="view-all">सभी देखें</a>
+</div>
+
+<div class="grid-container">
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-blue">📝</div>
+    <span class="subject-name">Tenses</span>
+  </a>
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-orange">🗣️</div>
+    <span class="subject-name">Active Voice</span>
+  </a>
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-purple">📖</div>
+    <span class="subject-name">Articles</span>
+  </a>
+</div>
+
+<div class="section-title">
+  <h2>Study Materials</h2>
+  <a href="#" class="view-all">सभी देखें</a>
+</div>
+
+<div class="grid-container">
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-green">📚</div>
+    <span class="subject-name">NCERT Book</span>
+  </a>
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-red">💡</div>
+    <span class="subject-name">Mind Maps</span>
+  </a>
+  <a href="#" class="subject-box">
+    <div class="icon-circle bg-yellow">❓</div>
+    <span class="subject-name">Imp. Ques.</span>
+  </a>
+</div>
+
     </div> 
     <footer style="background: #1e3c72; color: white; padding: 40px 20px; text-align: center; margin-top: 50px; border-radius: 20px 20px 0 0;">
     <div style="margin-bottom: 20px;">
