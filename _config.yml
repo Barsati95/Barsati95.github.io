@@ -1,5 +1,9 @@
-title: "Meri Shiksha Site"
-description: "Muft notes aur PDFs — sabke liye, bina login"
-baseurl: ""
-url: "https://barsati95.github.io"
-theme: minima
+# Site Settings
+title: StudyGrammarHub
+description: Premium English Grammar & Study Material
+remote_theme: pmarsceill/just-the-docs # Agar theme use kar rahe hain toh
+
+# Inhe khali chhod dein taaki GitHub default header na dikhaye
+show_downloads: false
+google_analytics: 
+
