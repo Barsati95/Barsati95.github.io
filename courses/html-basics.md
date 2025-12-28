@@ -8,4 +8,3 @@ title: "HTML Basics"
 
 <a class="btn" href="/assets/pdfs/lakshya-book.pdf" download>Download Lakshya Book (PDF)</a>
 
-यदि आपने PDF का नाम अलग रखा है (उदाहरण: `Lakshya book.pdf`), तो यहाँ उसी नाम का उपयोग करें या पहले PDF का नाम `lakshya-book.pdf` कर लें।
