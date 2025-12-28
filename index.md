@@ -19,27 +19,4 @@ title: Home
     <li><a href="/courses/html-basics.html">HTML Basics</a></li>
     <!-- आगे नए कोर्स यहाँ जोड़ें -->
   </ul>
-</section>
-``` ````
-
-Step 4 — Logo नहीं दिखे तो (optional)
-- अगर आपने logo अभी upload नहीं किया है तो या logo.png नहीं है, header में वो image tag `onerror` के कारण छिप जाएगा और सिर्फ़ text title दिखेगा — फिर भी layout अच्छा दिखेगा।
-- बेहतर दिखाने के लिए logo upload जरूर करें: Repo → Add file → Upload files → assets/img/logo.png → Commit changes.
-
-Step 5 — Preview और टेस्ट
-- Commit के बाद 1–2 मिनट रुकें।  
-- मोबाइल ब्राउज़र में खोलें: https://barsati95.github.io  
-- Home का नया रूप देखें — logo ऊपर, nav, hero और about दिखना चाहिए।  
-- Course पेज और PDF डाउनलोड भी जाँचें।
-
-Extra छोटे‑छोटे सुझाव
-- अगर आप कोई color बदलना चाहें तो `_layouts/default.html` में `--accent` की value बदल दें (उदा. `#0366d6` नीला)।  
-- और Images जोड़ने के लिए `assets/img/` में upload करें और Markdown में `<img src="/assets/img/your.jpg" alt="...">` से लगाएँ।  
-- चाहें तो मैं आपके लिए एक छोटा favicon (16×16) और social meta tag भी जोड़ दूँ — बताइए।
-
-यदि आप चाहें तो मैं अभी:
-- 1) वही `_layouts/default.html` और `index.md` मैं आपकी repo में बना देने का step‑by‑step दूँ (कहाँ टैप करना है), या  
-- 2) logo upload करने का screen‑by‑screen निर्देश दूँ, या  
-- 3) एक छोटा navigation bar और footer link जोड़ दूँ — मैं direct ready code दे दूँगा।
-
-बताइए आप कौन‑सा action अभी करना चाहेंगे — मैं एकदम step‑by‑step एक लाइन में बताऊँगा जिसे आप मोबाइल पर करके finish कर सकें।
+</section
