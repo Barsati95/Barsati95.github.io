@@ -95,4 +95,22 @@ title: Home
     </div>
 
     </div>
+    <footer style="background: #1e3c72; color: white; padding: 40px 20px; text-align: center; margin-top: 50px; border-radius: 20px 20px 0 0;">
+    <div style="margin-bottom: 20px;">
+        <h2 style="margin: 0;">StudyGrammarHub</h2>
+        <p style="opacity: 0.8;">Quality Education for Everyone</p>
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+        <a href="./about.html" style="color: white; margin: 0 10px; text-decoration: none;">About Us</a> | 
+        <a href="mailto:aapkaemail@gmail.com" style="color: white; margin: 0 10px; text-decoration: none;">Contact Support</a>
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); width: 50%; margin: 20px auto;">
+    
+    <p style="font-size: 0.9em; opacity: 0.7;">
+        © 2025 StudyGrammarHub | Made with ❤️ for Students
+    </p>
+</footer>
+
     
